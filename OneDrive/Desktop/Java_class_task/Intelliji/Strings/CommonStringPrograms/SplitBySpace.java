@@ -10,8 +10,10 @@ public class SplitBySpace {
         // Displaying the split parts
         System.out.println("Original string: " + str);
         System.out.println("Splitting the string by space:");
-        for (String part : parts) {
-            System.out.println(part);
+
+        // Displaying the split parts without using for-each loop
+        for (int i = 0; i < parts.length; i++) {
+            System.out.println(parts[i]);
         }
     }
 
@@ -21,3 +23,4 @@ public class SplitBySpace {
         return parts;
     }
 }
+

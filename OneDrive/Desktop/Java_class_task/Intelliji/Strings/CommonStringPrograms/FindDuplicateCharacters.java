@@ -7,7 +7,7 @@ public class FindDuplicateCharacters {
     }
 
     public static void findDuplicateChars(String str) {
-        char[] characters = str.toCharArray();
+        char[] characters = str.toCharArray();//Converts the input string str into an array of characters named characters.
 
         System.out.println("Duplicate characters in the string '" + str + "':");
 
